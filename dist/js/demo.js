@@ -11,7 +11,6 @@
   var $container = $('<div />', {
     class: 'p-3 control-sidebar-content'
   })
-
   $sidebar.append($container)
 
   var navbar_dark_skins = [

@@ -10,12 +10,7 @@ if($uid!='' || $uid!=0)
 }
 else
 {
-    //echo '<script>alert("'.$uid.'111")</script>';
-    // echo'<script>';
-	
-    // echo'window.location="/conplusinvest-admin/index.php"';
-    
-    // echo'</script>';
+   
     header("Location: https://rudraexpo.com/conplusinvest-admin/index.php"); 
   exit();
 }

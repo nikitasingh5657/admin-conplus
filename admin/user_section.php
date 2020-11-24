@@ -14,7 +14,6 @@ include 'comman_functions.php';
     navbar(); 
 ?>
   <!-- /.navbar -->
-
   <!-- Main Sidebar Container -->
   <?php
     main_sidebar(); 

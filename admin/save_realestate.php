@@ -23,9 +23,6 @@ if(!empty($_FILES['rimage']['name']))
 
 $folder = "../images/estate/".$filename; 
 
-
-
-
 if(!empty($_FILES['rimage']['name']))	
 {
     move_uploaded_file($tempname, $folder);   

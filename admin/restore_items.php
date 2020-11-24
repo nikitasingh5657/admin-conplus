@@ -12,7 +12,6 @@ if($section=='home')
 {
     $res = "update property_info set is_del='no' where id='$id'";
 }
-
 echo $res;
 if(mysqli_query($conn,$res) == TRUE)
 {

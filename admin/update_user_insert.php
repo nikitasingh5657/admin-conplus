@@ -7,6 +7,7 @@ $password = $_POST['password'];
 $color = $_POST['color'];
 $res = "update  login set  username='$name',password='$password',user_color='$color' where id='".$_POST['id']."'";
 echo $res;
+
 if(mysqli_query($conn,$res) == TRUE)
 {
 echo'<script>';

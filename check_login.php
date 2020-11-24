@@ -22,7 +22,7 @@ if($result = mysqli_query($conn, "SELECT * FROM login"))
 			}
 			else
 			{
-	//alert("password is incorrect");
+		//alert("password is incorrect");
 	echo "password is incorrect";
 			//header('location:index.php');
 			}

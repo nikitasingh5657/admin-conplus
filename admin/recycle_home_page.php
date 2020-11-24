@@ -19,7 +19,6 @@ include 'comman_functions.php';
   <?php
     main_sidebar(); 
 ?>
-
   <!-- Content Wrapper. Contains page content -->
 
    

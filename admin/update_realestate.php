@@ -18,7 +18,6 @@ if(isset($_GET['val'])){
     navbar(); 
 ?>
   <!-- /.navbar -->
-
   <!-- Main Sidebar Container -->
   <?php
     main_sidebar(); 

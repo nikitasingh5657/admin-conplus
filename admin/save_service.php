@@ -16,9 +16,6 @@ $filename = $_FILES["serImage"]["name"];
 $tempname = $_FILES["serImage"]["tmp_name"];     
 $folder = "../images/".$filename; 
 
-
-
-
 if(!empty($_FILES['serImage']['name']))	
 {
     move_uploaded_file($tempname, $folder);
